@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: green
+    background-color: rgb(46, 175, 168)
    
 
 }
@@ -9,19 +9,15 @@ body {
 header {
     width: 100vw;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(120, 120, 206);
 }
 main {
 
     min-height: 80vh;
     
-    background-color: green;
+    background-color:  rgb(46, 175, 168)
 }
-footer {
-    width: 100vw;
-    height: 50px;
-    background-color: green;
-}
+
 
 
 .img {
@@ -37,14 +33,23 @@ div {
   align-items: center;
 }
 h1 {
+    color: red;
     text-align: center;
-    background-color: green;
-    margin: 10px;
+    
+    
 }
+
 h2 {
-    background-color: green;
+    background-color: rgb(223, 227, 233);
+    text-align: center;
     padding: 10px;
     margin: 10px;
+    color: red;
+    padding: 5px;
+    
+    width: 300px;
+    
+    
 
 
 }
@@ -66,7 +71,17 @@ section {
     
 }
 p {
-    text-align: left;
+    text-align: justify;
     padding: 10px;
     margin: 10px;
+    background-color: rgb(174, 233, 213);
+}
+h3 {
+    background-color:  rgb(223, 227, 233);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    width: 700px;
+
 }
