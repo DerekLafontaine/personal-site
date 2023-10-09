@@ -1,7 +1,4 @@
-let num1 = 10
-console.log(num1)
-let hello = "this is a string"
-console.log(hello)
-tacos are GeolocationCoordinates
-let tacoss
-let forever
+
+let string = "Hello World"
+console.log(string)
+
