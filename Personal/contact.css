@@ -1,0 +1,55 @@
+form {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+body {
+    background-color: rgb(72, 132, 185);
+    font-size: calc(20px + 0.5vw);
+    
+}
+@media (max-width: 900px) {
+    body{
+        background-color: burlywood;
+    }
+}
+input#Name {
+    padding: 1px;
+    width: 170px;
+}
+input#Messages {
+    padding: 100px;
+    width: 400px;
+}
+form {
+    margin-left: 300px;
+}
+h1 {
+    text-align: left;
+    color: rgb(31, 12, 100);
+    font-style: italic; 
+}
+input {
+    background-color: rgb(206, 224, 211);
+}
+input:hover {
+    background-color: red;
+}
+button:hover {
+    background-color: red;
+}
+label {
+    color: rgb(40, 3, 126);
+    font-size: 30px;
+    font-style: italic;
+    
+}
+label:nth-child(3) {
+    color: blue;
+}
+nav {
+    background-color: rgb(72, 132, 185);
+    text-align: right;
+}
+
+    

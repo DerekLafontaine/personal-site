@@ -20,10 +20,8 @@ main {
 
 
 
-.img {
-    position: absolute;
-    bottom: 1%;
-    right: 5%;
+img {
+  margin-left: 300px;
     
 
 }
@@ -84,4 +82,7 @@ h3 {
     color: red;
     width: 700px;
 
+}
+main {
+    
 }
