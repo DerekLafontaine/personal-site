@@ -1,6 +1,9 @@
 form {
     display: grid;
     grid-template-columns: 1fr ;
+
+  
+   
 }
 
 body {
@@ -8,11 +11,15 @@ body {
     font-size: calc(20px + 0.5vw);
     
 }
-@media (max-width: 900px) {
-    body{
-        background-color: burlywood;
+@media screen and (max-width: 992px) {
+    body {
+      background-color: burlywood;
+      color: white;
+      align-items: center;
     }
-}
+  }
+  
+
 input#Name {
     padding: 1px;
     width: 170px;
@@ -21,11 +28,9 @@ input#Messages {
     padding: 100px;
     width: 400px;
 }
-form {
-    margin-left: 300px;
-}
+
 h1 {
-    text-align: left;
+    text-align: center;
     color: rgb(31, 12, 100);
     font-style: italic; 
 }
@@ -51,5 +56,6 @@ nav {
     background-color: rgb(72, 132, 185);
     text-align: right;
 }
+
 
     
